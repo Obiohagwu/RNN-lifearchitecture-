@@ -23,7 +23,9 @@ When a thought comes to mind, a smell is sensed, or luminous intensity from a li
 Let's make some preliminary mappings:
 Following the principle of a simple mlp, we have an output **y = (W.x) + b** . This is the basis of a computational neuron.
 
-#### Input (x)
-We could analogize the input **x** as a high dimensional vector of datapoints mapping to senses (sight, smell, sounds etc). These input points can be efficently compressed by some compression/tokenization algorithm into sequential inputs.
+- **Input (x)**: We could analogize the input **x** as a high dimensional vector of datapoints mapping to senses (sight, smell, sounds etc). These input points can be efficently compressed by some compression/tokenization algorithm into sequential inputs.
+- **Weights (w)**: The weights are the really important part. For those unfamiliar, you could imagine a weight matrix as the  directional arm of the scalar, granting it magnitude and direction - ergo a vector. Think speed vs velocity, or mass vs gravity. **A weight matrix is a directed sequence**. Weights are important in so far as they hold, through iterative optimization via backpropagation, the optimal datapoints that leads our model to produce ideal outputs. In this analogy of RNNs as life architectures, a weight can be mapped to **conscious attention**. Consciousness, without the directional value of attention, or an attention mechanism, is almost quite useless. The reasons for that are fairly obvious once you think about it. Consciousness for all it's worth, is simply directed attention.
+-**bias (b)**: The bias term is important insofar as most of our subjective experince is clouded by a fugue of internal mechanics that we can't accurately account for. Bias is also useful for avoiding problems of overfitting to a certain mode of operation (overfitting/underfitting), allowing our model to generalize better over multiple schemas.
 
 
+## The step function and it's significance to hidden state approximation
