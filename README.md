@@ -11,7 +11,7 @@ An RNN operates on the basis of LSTMs and a very important aspect -  it's hidden
 From the perspective of human cognition, we can see why such a caveat is quite important. 
 Following reading's from Karpathy's blog post:
 
- "The RNN class has some internal state that it gets to update at every time **step**. In the simplest case, this state consists of a single *hidden* vector **h**."
+> The RNN class has some internal state that it gets to update at every time **step**. In the simplest case, this state consists of a single *hidden* vector **h**.
 
 One could see how such a hidden vector state **h** could be analogized to a sort of subconsious thought process - similar to that found in humans.
 
