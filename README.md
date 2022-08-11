@@ -7,7 +7,7 @@ A foray into Recurrent networks as an architecture for life
 
 ** ADD IMAGE OF ARCHITECTURE **
 
-An RNN operates on the basis of LSTMs and a very important aspect -  it's hidden state vector *h*.
+An RNN operates on the basis of GRUs & LSTMs and a very important aspect -  it's hidden state vector **h** that iteratively updated based on a step function.
 From the perspective of human cognition, we can see why such a caveat is quite important. 
 Following reading's from Karpathy's blog post:
 
